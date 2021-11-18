@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="TargetEducativo.Top" size="1.000000 1.000000"/>
+        <ImageTarget name="TargetEducativo.Left" size="1.000000 1.000000"/>
+        <ImageTarget name="TargetEducativo.Back" size="1.000000 1.000000"/>
+        <ImageTarget name="TargetEducativo.Front" size="1.000000 1.000000"/>
+        <ImageTarget name="TargetEducativo.Right" size="1.000000 1.000000"/>
+        <ImageTarget name="TargetEducativo.Bottom" size="1.000000 1.000000"/>
+        <MultiTarget name="TargetEducativo">
+            <Part name="TargetEducativo.Left" translation="-0.5 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="TargetEducativo.Right" translation="0.5 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="TargetEducativo.Front" translation="0 0 0.5" rotation="AD: 1 0 0 0"/>
+            <Part name="TargetEducativo.Back" translation="0 0 -0.5" rotation="AD: 0 1 0 180"/>
+            <Part name="TargetEducativo.Top" translation="0 0.5 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="TargetEducativo.Bottom" translation="0 -0.5 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
